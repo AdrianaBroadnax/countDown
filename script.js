@@ -22,13 +22,16 @@ function countdown(){
         timer--;
         // timer.textContent = fastDurationValue;
     },1000);
+    timer.innerHTML = `${minutes}:${seconds}`;
+    time--;
+    console.log(fastDurationValue)
 }
 
 countdown();
 
-timer.innerHTML = `${minutes}:${seconds}`;
-time--;
-console.log(fastDurationValue)
+// timer.innerHTML = `${minutes}:${seconds}`;
+// time--;
+// console.log(fastDurationValue)
 // get the value of the input to determine the time of countdown
 
 
